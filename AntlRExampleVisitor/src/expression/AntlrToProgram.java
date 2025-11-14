@@ -8,7 +8,7 @@ import java.util.List;
 
 public class AntlrToProgram extends ExprBaseVisitor<Program> {
 
-    private List<String> semanticErrors; // to be accessed by main access program
+    public List<String> semanticErrors; // to be accessed by main access program
 
 
 
